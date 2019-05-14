@@ -1,0 +1,55 @@
+body{
+    font-size:16px;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Heebo', sans-serif;
+    margin: .25rem;
+}
+
+h2{
+    color: mediumaquamarine;
+    font-size: 1.2rem;
+    font-style: bold;
+}
+
+h3{
+    color: azure;
+    font-size: 1.2rem;
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    padding: .5rem;
+    max-width: 480px;
+}
+
+header, footer {
+    background-color: burlywood;
+    color: aquamarine;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    color: aquamarine
+}
+
+img{
+    width: 100%;
+}
+
+.rightalign {
+    float:right;
+    width:150px;
+    geight: auto;
+    box-shadow: 0 0 30px grey;
+}
+
+.caption {
+    font-size: smaller;
+    color: bisque
+}
