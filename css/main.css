@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
 }
 
 h2{
-    color: mediumaquamarine;
+    color:azure;
     font-size: 1.2rem;
     font-style: bold;
 }
@@ -27,7 +27,7 @@ header, main, footer {
 
 header, footer {
     background-color: burlywood;
-    color: aquamarine;
+    color: azure;
 }
 
 footer{
@@ -35,7 +35,7 @@ footer{
 }
 
 footer a{
-    color: aquamarine
+    color: azure;
 }
 
 img{
@@ -51,5 +51,5 @@ img{
 
 .caption {
     font-size: smaller;
-    color: bisque
+    color: azure;
 }
