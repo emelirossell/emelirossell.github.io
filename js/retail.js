@@ -40,3 +40,9 @@ let fintot = sub + taxsub;
 document.getElementById("finalsum").innerHTML = "Total after sales tax: $" + fintot.toFixed(2);
 }
 }
+
+// Get Current Date
+let today = new Date(); // new Date object
+// now concatenate formatted output
+let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFullYear();
+document.getElementById('currentdate').innerHTML = date;
