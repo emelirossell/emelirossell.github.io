@@ -1,45 +1,24 @@
-body {
-	text-align: center;
+// DEFINING TABLE
+/*Input:Get date from computer
+*Processing: Determine whether user can wake up or sleep in
+//Output: Tell the user if they need to wake up or sleep in. 
+*/
+
+let today = new Date();
+let day = today.getDay();
+let month = today.getMonth();
+let date = today.getDate();
+	
+document.getElementById('todayIs').innerHTML = today;
+		
+	if ( ( month == 0 && date == 1) || (month = 6 && date == 4) || (month == 11 && date == 25) || day == 6 || day == 0) {		
+message = "sleep in!"; 
 }
-header,
-footer {
-	background-color: #000;
-	color: #fff;
-	padding: 10px;
+else {
+	message = "wake up!";
 }
 
-footer {
-	font-size: 13px;
-	letter-spacing: 1.5pt;
-}
+document.getElementById('schedule').innerHTML= message;
 
-h1,
-h2 {
-	margin: 0;
-}
-
-h2, #currentdate {
-	color: yellow;
-}
-
-main {
-	margin: 10px auto;
-	border: 1px solid #999;
-	padding: 10px;
-	max-width: 500px;
-	background-color: #abe;
-	box-shadow: 0 0 30px;
-}
-
-h3 {
-	font-size: 24px;
-	margin: 0 0 15px 0;
-	border-bottom: 1px solid #333;
-	padding: 0;
-}
-
-label {
-	display: block;
-	margin: 5px;
-}
-
+	
+	
