@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Emeli Rossell CIT 160 Assignment </title>
+        <meta name="description" content="This page serves as an assignment for CIT 160">
+        <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+        <link rel="stylesheet" href="css/windchill.css">
+        <header>
+            <h1>Week 10: Functions</h1>
+            <h2>Emeli Rossell</h2>
+          </header>
+          <main>
+            <h3>Wind Chill</h3>
+            <h4>Please note that we CANNOT define (calculate) the wind chill factor for temperatures above 50°F  and wind speeds less than 3 miles per hour.<h4>
+            <label>Temperature:<input type="number" id="temperature"> F&deg</label>
+            <label>Wind Speed:<input type="number" id="speed">MPH</label>
+            <button onclick="doInputOutput()">Calculate Wind Chill</button>
+            <hr>
+            <div>It feels like it is: <br> <span id="output"></span></div>
+          </main>
+
+<footer>
+    &copy;2019 &bull; Emeli Rossell &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+</footer>
+<script src="js/windchill.js"></script>
+</body>
+</html>
