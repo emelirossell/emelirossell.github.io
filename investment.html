@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Emeli Rossell CIT 160 Assignment Portal</title>
+        <meta name="description" content="This page serves as an assignment portal for CIT 160 - an introduction to programming using JavaScript at BYU-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+        <link rel="stylesheet" href="css/investment.css">
+        </head>
+        <header>
+            <h1>Week 11: Functions</h1>
+            <h2>Emeli Rossell</h2>
+          </header>
+            <main>
+             <h3>Investment Calculator</h3>
+             <hr>
+               <label>Amount Invested (principle):<input type="text" id="principle"></label> 
+               <label>Annual Rate (example 0.08) :<input type="text" id="rate"></label>
+              <label> Number of Years: <input tyoe="text" id="years"></label>
+              <label> Periods Per Year :<input type="text" id="periods"></label>
+                <label><button onclick="doFV()">Compute Future Value</button></label>
+              <hr><label>Future Value:  <span id="output"></span></label>
+          
+          </main>
+          <footer>
+            &copy;2019 &bull; Emeli Rossell&bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+          </footer>
+          <script src="js/investment.js"></script>
+        </body>
+    
+    </html>
